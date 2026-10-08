@@ -235,6 +235,8 @@ body.tr-on .tr:hover{background:rgba(247,215,116,.16)}
 .tip{position:fixed;z-index:200;max-width:250px;background:var(--butter);color:#20180A;padding:9px 13px;border-radius:10px;font-family:var(--body);font-size:14px;line-height:1.42;box-shadow:0 12px 30px rgba(0,0,0,.4);opacity:0;visibility:hidden;transition:opacity .12s ease;pointer-events:none}
 .tip.on{opacity:1;visibility:visible}
 .tip b{display:block;font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;opacity:.6;margin-bottom:3px;font-weight:500}
+@media (max-width:1200px){.trbar .lbl{display:none}}
+@media (max-width:1080px){.top .pill.line{display:none}}
 @media (max-width:760px){.trbar .lbl{display:none}.trbar .seg button{font-size:11px;padding:6px 9px}}
 @media (max-width:560px){.top .pill.line{display:none}.trbar .seg button{font-size:10.5px;padding:5px 8px}}
 .trbar{flex-shrink:0}
